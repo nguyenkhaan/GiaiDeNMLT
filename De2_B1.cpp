@@ -1,3 +1,4 @@
+//Xoa dong cot tu ma tran A de thu duoc ma tran B
 #include <bits/stdc++.h>
 using namespace std;
 //#define int long long

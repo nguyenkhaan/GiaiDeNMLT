@@ -18,13 +18,13 @@ void solve()
     p[0] = 0; 
     for (int i = 1; i <= n; ++i) {
         cin >> a[i]; 
-        p[i] = p[i - 1] + a[i]; 
+        p[i] = p[i - 1] + a[i]; //prefix sum 
     }
     int ans = 0; 
     for (int i = 1; i <= n; ++i) 
     {
         int temp = p[n] - p[i]; 
-        ans += ((temp % MOD) * (a[i] % MOD)) % MOD; 
+        ans += ((temp % MOD) * (a[i] % MOD)) % MOD; //Dong du
     }
     cout << ans % MOD; 
 }
