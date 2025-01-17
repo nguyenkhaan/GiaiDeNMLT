@@ -1,4 +1,7 @@
 //Trung Tuyen
+//Hầu hết các bài mà mình ghi quay lui trong File bài tập đều chì có 1 motip chung là dùng dãy nhị phân để thể hiện việc 
+//lựa chọn thôi. Ví dụ: 1 mảng A có 5 phần tử thì liệt kê tất cả dãy nhị phân có 5 kí số 00000 đến 11111 (quay lui) 
+//VD xét dãy 00110 thì binary[2] = 1, binary[3] = 1 ta sẽ tạo đươc 1 tập hợp con {a[2] , a[3]}
 #include <bits/stdc++.h>
 using namespace std;  
 #define int long long 
